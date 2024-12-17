@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote - Mining Excellence</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .quote-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0 50px 0;
+            margin-bottom: 50px;
+        }
+        .form-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            border-radius: 10px;
+        }
+        .quote-form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            height: 100%;
+        }
+        .contact-info i {
+            margin-right: 10px;
+            color: #3498db;
+        }
+        .testimonial-section {
+            padding: 50px 0;
+            background: #f1f5f9;
+        }
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .testimonial-rating {
+            color: #ffd700;
+            margin: 10px 0;
+        }
+        .testimonial-company {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mining Excellence</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Quote Header -->
+    <header class="quote-header text-center">
+        <div class="container">
+            <h1 class="display-4 mb-4">Request a Quote</h1>
+            <p class="lead">Get a customized quote for your mining project needs</p>
+        </div>
+    </header>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <img src="https://via.placeholder.com/150" alt="John Smith" class="testimonial-img">
+                        <h4>John Smith</h4>
+                        <p class="testimonial-company">CEO, Global Mining Corp</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mt-3">"Mining Excellence has transformed our operations with their cutting-edge equipment and expert consultation. Their team's professionalism and dedication to safety are unmatched."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <img src="https://via.placeholder.com/150" alt="Sarah Johnson" class="testimonial-img">
+                        <h4>Sarah Johnson</h4>
+                        <p class="testimonial-company">Operations Director, Resource Solutions</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="mt-3">"The team's commitment to environmental sustainability while maintaining high productivity has helped us achieve our goals. Their innovative solutions have set new industry standards."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <img src="https://via.placeholder.com/150" alt="Michael Chen" class="testimonial-img">
+                        <h4>Michael Chen</h4>
+                        <p class="testimonial-company">Project Manager, Pacific Mining</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="mt-3">"From initial consultation to project completion, Mining Excellence delivered beyond our expectations. Their expertise and state-of-the-art equipment made our project a success."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section class="form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="quote-form">
+                        <h3 class="mb-4">Project Details</h3>
+                        <form id="quoteForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Company Name</label>
+                                <input type="text" class="form-control" id="company">
+                            </div>
+                            <div class="mb-3">
+                                <label for="projectType" class="form-label">Project Type *</label>
+                                <select class="form-select" id="projectType" required>
+                                    <option value="">Select Project Type</option>
+                                    <option value="surface">Surface Mining</option>
+                                    <option value="underground">Underground Mining</option>
+                                    <option value="mineral">Mineral Processing</option>
+                                    <option value="consulting">Mining Consulting</option>
+                                    <option value="equipment">Equipment Rental</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="budget" class="form-label">Estimated Budget</label>
+                                <select class="form-select" id="budget">
+                                    <option value="">Select Budget Range</option>
+                                    <option value="<50k">Less than $50,000</option>
+                                    <option value="50k-200k">$50,000 - $200,000</option>
+                                    <option value="200k-500k">$200,000 - $500,000</option>
+                                    <option value="500k-1m">$500,000 - $1 Million</option>
+                                    <option value=">1m">More than $1 Million</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="timeline" class="form-label">Project Timeline</label>
+                                <select class="form-select" id="timeline">
+                                    <option value="">Select Timeline</option>
+                                    <option value="immediate">Immediate (Within 1 month)</option>
+                                    <option value="quarter">This Quarter</option>
+                                    <option value="sixMonths">Within 6 months</option>
+                                    <option value="year">Within 1 year</option>
+                                    <option value="planning">Still in planning phase</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Project Details *</label>
+                                <textarea class="form-control" id="message" rows="5" required 
+                                    placeholder="Please describe your project requirements, including location, scope, and any specific needs or challenges."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Submit Quote Request</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Contact Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Mining Road<br>Resource City, RC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> quotes@miningexcellence.com</p>
+                        <hr class="my-4">
+                        <h4 class="mb-3">Why Choose Us?</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check"></i> 25+ Years Experience</li>
+                            <li class="mb-2"><i class="fas fa-check"></i> Industry Leading Equipment</li>
+                            <li class="mb-2"><i class="fas fa-check"></i> Safety First Approach</li>
+                            <li class="mb-2"><i class="fas fa-check"></i> Environmental Compliance</li>
+                            <li class="mb-2"><i class="fas fa-check"></i> Competitive Pricing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your quote request! We will contact you within 24 business hours.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
